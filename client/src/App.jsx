@@ -146,12 +146,12 @@ function App() {
                 <div className="stats stats-vertical lg:stats-horizontal shadow">
                   <div className="stat">
                     <div className="stat-title">Total Accounts</div>
-                    <div className="stat-value">{address}</div>
+                    <div className="stat-value">{parseInt(address, 10)}</div>
                   </div>
 
                   <div className="stat">
                     <div className="stat-title">Total Amount</div>
-                    <div className="stat-value">{number}</div>
+                    <div className="stat-value">{parseInt(number, 10)}</div>
                   </div>
                 </div>
               </div>
